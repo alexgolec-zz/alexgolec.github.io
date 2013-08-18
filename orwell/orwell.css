@@ -2,7 +2,11 @@
 
 @media only screen and (max-width: 767px) {
     .body-container {
-        width: 90%;
+        width: 95%;
+    }
+    .paragraph-container {
+        margin-left: 0em;
+        margin-right: 0em;
     }
 }
 
@@ -10,17 +14,16 @@
     .body-container {
         max-width: 35em;
     }
+    .paragraph-container {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }
 
 .body-container {
     margin-bottom: 5em;
     margin-left: auto;
     margin-right: auto;
-}
-
-.paragraph-container {
-    margin-left: 1em;
-    margin-right: 1em;
 }
 
 hr {
