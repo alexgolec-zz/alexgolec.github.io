@@ -94,7 +94,7 @@ body {
     font-family: Vollkorn, Georgia, serif;
     color: rgb(30, 30, 30);
     font-size: 16px;
-    /* text-rendering: optimizeLegibility; */
+    text-rendering: optimizeLegibility;
 }
 
 .body-container {
