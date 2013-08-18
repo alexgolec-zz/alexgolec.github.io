@@ -55,13 +55,43 @@ ol {
     padding-right: 1em;
 }
 
+p, ul, ol {
+    padding-top: 2.5em;
+}
+
+p.first-paragraph {
+    padding-top: 0em;
+}
+
+div.footnote {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.5em;
+}
+
+div.footnote > ul.quote {
+    margin-bottom: 0em;
+}
+
+div.footnote > p {
+    padding-top: 0em;
+}
+
+div.footnote-header {
+    margin-bottom: 0.75em;
+}
+
+a.footnote-link {
+    margin-right: 0.1em;
+}
+
 /* Typography */
 
 body {
     font-family: Vollkorn, Georgia, serif;
     color: rgb(30, 30, 30);
     font-size: 16px;
-    text-rendering: optimizeLegibility;
+    /* text-rendering: optimizeLegibility; */
 }
 
 .body-container {
@@ -92,7 +122,6 @@ h4 {
 }
 
 p, ul, ol {
-    margin-bottom: 2.5em;
     line-height: 1.5em;
 }
 
@@ -118,7 +147,6 @@ a {
 
 a.footnote-link {
     text-decoration: none;
-    margin-right: 0.1em;
 }
 
 a.footnote-back-to-text-link {
@@ -135,14 +163,6 @@ ol.roman {
     list-style-position: inside;
 }
 
-.footnote > ul.quote {
-    margin-bottom: 0em;
-}
-
-div.footnote-header {
-    margin-bottom: 0.75em;
-}
-
 span.footnote-number {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
