@@ -37,7 +37,7 @@ div.header {
 }
 
 ul.quote {
-    padding: 2em 1em 1em 2em;
+    padding: 2em 1em 0em 2em;
 }
 
 li.quote-author, li.quote-source {
