@@ -88,6 +88,18 @@ a.footnote-link {
     margin-right: 0.1em;
 }
 
+li.quote-text:first {
+    margin-top: 0em;
+}
+
+li.quote-text {
+    margin-top: 0.75em;
+}
+
+h1.chapter-marker {
+    margin-top: 1.5em;
+}
+
 /* Typography */
 
 body {
