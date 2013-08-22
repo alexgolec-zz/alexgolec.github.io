@@ -100,6 +100,22 @@ h1.chapter-marker {
     margin-top: 1.5em;
 }
 
+ul.poetry {
+    margin-left: 1.5em;
+}
+
+li.poetry-line {
+    margin-bottom: 0.0em;
+}
+
+.quote-text > p:first {
+    padding-top: 0em;
+}
+
+.centered-text {
+    text-align: center;
+}
+
 /* Typography */
 
 body {
