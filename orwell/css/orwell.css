@@ -108,7 +108,7 @@ li.poetry-line {
     margin-bottom: 0.0em;
 }
 
-.quote-text > p:first {
+.quote-text > p:first-child {
     padding-top: 0em;
 }
 
